@@ -6,7 +6,7 @@ turtle.bgcolor("black")
 colors = ["red", "green", "yellow", "blue", "orange", "purple", "white", "gray"]
 
 for n in range(50):
-    # Generate random spirals of randome sizes and colors at random locations
+    # Generate random spirals of randome sizes and 03-colors at random locations
     t.pencolor(random.choice(colors))
     size = random.randint(10,40)
 
